@@ -58,7 +58,7 @@
 
 ## What is this?
 
-A curated collection of **prompt examples** for AI chat models. Originally created for ChatGPT, these prompts work great with any modern AI assistant.
+A curated collection of **prompts** for AI chat models. Originally created for ChatGPT, these prompts work great with any modern AI assistant.
 
 | Browse Prompts | Data Formats |
 |----------------|--------------|
@@ -71,7 +71,7 @@ A curated collection of **prompt examples** for AI chat models. Originally creat
 
 ## 📖 The Interactive Book of Prompting
 
-Learn prompt engineering with our **free, interactive guide** — 25+ chapters covering everything from basics to advanced techniques like chain-of-thought reasoning, few-shot learning, and AI agents.
+Learn prompt engineering with our **free, interactive guide** — 28+ chapters covering everything from basics to advanced techniques like chain-of-thought reasoning, few-shot learning, and AI agents.
 
 **[Start Reading →](https://fka.gumroad.com/l/art-of-chatgpt-prompting)** (Source: https://github.com/f/prompts.chat/tree/main/src/content/book)
 
@@ -115,6 +115,19 @@ npm install && npm run setup
 ```
 
 The setup wizard configures branding, theme, authentication (GitHub/Google/Azure AD), and features.
+
+**Recommended database:** prompts.chat uses PostgreSQL. For a hosted database, we recommend [Neon](https://get.neon.com/VqfnMo4).
+
+<div>
+  <p>Sponsored by</p>
+  <a href="https://get.neon.com/VqfnMo4">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/neon-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/neon.svg">
+      <img width="250px" alt="Neon Logo fallback" src="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/neon-dark.svg">
+    </picture>
+  </a>
+</div>
 
 📖 **[Full Self-Hosting Guide](SELF-HOSTING.md)** • 🐳 **[Docker Guide](DOCKER.md)**
 
@@ -167,6 +180,14 @@ Use prompts.chat as an MCP server in your AI tools.
 ## 💖 Sponsors
 
 <p align="center">
+  <!-- Neon (py-1) -->
+  <a href="https://get.neon.com/VqfnMo4">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/neon-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/neon.svg">
+      <img height="30" alt="Neon" src="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/neon.svg">
+    </picture>
+  </a>&nbsp;&nbsp;
   <!-- Clemta -->
   <a href="https://clemta.com/?utm_source=prompts.chat">
     <picture>
